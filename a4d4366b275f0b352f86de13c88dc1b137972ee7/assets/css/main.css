@@ -1878,7 +1878,7 @@
 				text-align: left;
 				padding: 0.5em 1em 0.5em 1em;
 				color: #fff;
-				background: #ff7f50;
+				background: #ff8080;
 			}
 
 			table.default thead {
@@ -1903,7 +1903,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #ff7f50;
+		background-color: #ff8080;
 		border: 0;
 		cursor: pointer;
 		-moz-transition: background-color 0.35s ease-in-out;
@@ -1993,7 +1993,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ff7f50;
+		background: #ff8080;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2190,12 +2190,12 @@
 				background-color: #000048;
 				background-image: url("../../images/banner.jpg");
 				background-repeat: no-repeat;
-    			width: 1250px;
+    			width: 1218px;
     			height: 560px;
 			}
 
 			#main > section.two {
-				background-color: #faf0be;
+				background-color: #f5fafa;
 			}
 
 			#main > section.three {
@@ -2383,7 +2383,7 @@
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #ff7f50;
+				background: #ff8080;
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 

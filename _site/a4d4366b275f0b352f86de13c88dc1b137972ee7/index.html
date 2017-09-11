@@ -15,7 +15,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Header -->
 			<div id="header">
 
@@ -227,6 +227,13 @@
 			    </script>
 			    <script async defer
 			    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrrQevt6qZjD-vVHpTM20AQaFzPEQvAQg&callback=initMap">
+		    </script>
+
+		    <script>
+		    	var siteWidth = 1280;
+				var scale = screen.width /siteWidth
+
+				document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
 		    </script>
 	</body>
 </html>
