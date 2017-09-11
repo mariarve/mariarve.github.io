@@ -2188,10 +2188,7 @@
 
 			#main > section.one {
 				background-color: #000048;
-				background-image: url("../../images/banner.jpg");
-				background-repeat: no-repeat;
-    			width: 1218px;
-    			height: 560px;
+				    			
 			}
 
 			#main > section.two {
