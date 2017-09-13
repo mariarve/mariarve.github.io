@@ -11,8 +11,14 @@
 body {
     background-color: #000048;
     background-attachment: fixed;
-    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
 }
+
+
 .box {
     border-radius: 3px;
     background-color: #ff8080; 
@@ -56,10 +62,13 @@ div.vertical {
 
 <body>
     
+    <h1 align="center">Arve og Mari</h1>
+    <h3 align="center">01.09.2018</h3>
     <div id="loginbox" class="lightbox" >
         <div class="horizontal">
             <div class="vertical">
                 <div class="box">               
+                    <p>Passord:</p>
                     <input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
                     <button id="loginbutton" type="button">Enter</button>
                     <p id="wrongPassword" style="display: none">Wrong password</p>
